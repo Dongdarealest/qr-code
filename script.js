@@ -12,7 +12,7 @@ generateBtn.addEventListener("click", () => {
     qrImg.src = `https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=${qrValue}`;
     qrImg.addEventListener("load", () => {
         wrapper.classList.add("active");
-        generateBtn.innerText = "Generate QR Code";
+        generateBtn.innerText = "Đang tạo mã QR...";
     });
 });
 
